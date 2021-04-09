@@ -1,5 +1,4 @@
 #!/usr/bin/python2
-#Source: https://www.trustedsec.com/2012/03/building-a-native-http-shell-with-aes-in-python/
 
 import subprocess
 import sys
