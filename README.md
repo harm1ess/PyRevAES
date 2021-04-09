@@ -52,4 +52,4 @@ If still having issues, try running everything using sudo.
 
 ## Notes:
 - Logo made with courtesy of https://www.freelogodesign.org/
-- Most of this code is from here https://www.trustedsec.com/2012/03/building-a-native-http-shell-with-aes-in-python/ and about twenty other different sources.  I apologise if I haven't referenced anyone's code here.
+- Most of this code is from here https://www.trustedsec.com/2012/03/building-a-native-http-shell-with-aes-in-python/
