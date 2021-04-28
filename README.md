@@ -51,7 +51,8 @@ WINREG HELP
 Example:        winreg,set,HKEY_CURRENT_USER,control panel\mouse,mousesensitivity,7
                                 or
 Usage read: winreg,read,[HKEY],[REG_PATH],[REG_NAME]
-Example:        winreg,read,HKEY_CURRENT_USER,control panel\mouse,mousesensitivity```
+Example:        winreg,read,HKEY_CURRENT_USER,control panel\mouse,mousesensitivity
+```
 
 
 ## Issues:
