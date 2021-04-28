@@ -9,7 +9,7 @@ A Windows Reverse Shell using HTTP methods with 256-bit AES encryption written i
 If I get some time (and encouragement), I will convert this to a python3 project and probably use some oop.
 
 
-## Install
+## Install:
 1. ```git clone https://github.com/simon-revit/PyRevAES.git```
 2. ```pip2 install -r requirements.txt```
 3. ```python2 server_shell_http.py```
@@ -46,7 +46,7 @@ NB: If changing the ```secret``` AES encryption key, ensure you change both the 
 
 ```winreg```                 => displays help message
 
-## Issues
+## Issues:
 If there are issues with pip2 installation (due to deprecation) refer to this https://bootstrap.pypa.io/ to get pip working again for python2. 
 
 If there are issues with pycrypto, install the following:
