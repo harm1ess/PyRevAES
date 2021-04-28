@@ -46,6 +46,7 @@ NB: If changing the ```secret``` AES encryption key, ensure you change both the 
 ```download [filename]```     => Need to rename file after download.
 
 ```winreg```                 => displays help message
+
 WINREG HELP
 ```
 Usage set:  	winreg,set,[HKEY],"[REG_PATH]",[REG_NAME],[value]
