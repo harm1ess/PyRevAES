@@ -47,10 +47,11 @@ NB: If changing the ```secret``` AES encryption key, ensure you change both the 
 
 ```winreg```                 => displays help message
 WINREG HELP
-```Usage set:      winreg,set,[HKEY],"[REG_PATH]",[REG_NAME],[value]
+```
+Usage set:  	winreg,set,[HKEY],"[REG_PATH]",[REG_NAME],[value]
 Example:        winreg,set,HKEY_CURRENT_USER,control panel\mouse,mousesensitivity,7
                                 or
-Usage read: winreg,read,[HKEY],[REG_PATH],[REG_NAME]
+Usage read: 	winreg,read,[HKEY],[REG_PATH],[REG_NAME]
 Example:        winreg,read,HKEY_CURRENT_USER,control panel\mouse,mousesensitivity
 ```
 
