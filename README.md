@@ -4,9 +4,9 @@
 
 # PyRevAES
 
-A Windows Reverse Shell using HTTP methods with 256-bit AES encryption written in python version 2
+A Windows Reverse Shell using HTTP methods with 256-bit AES encryption written in python2.
 
-If I get some time (and encouragement), I will convert this to a python3 project and probably use some oop.
+If I get some time, I will convert this to a python3 project.
 
 
 ## Install:
