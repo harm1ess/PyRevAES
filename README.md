@@ -8,6 +8,13 @@ A Windows Reverse Shell using HTTP methods with 256-bit AES encryption written i
 
 If I get some time (and encouragement), I will convert this to a python3 project and probably use some oop.
 
+
+## Install
+1. git clone <repo>
+2. ```pip2 install -r requirements.txt```
+3. ```python2 server_shell_http.py```
+4. choose port ```80``` - Other ports may work, but it works best with port ```80```
+
 ## Usage:
 1. Run server_shell_http.py from kali (and choose port 80)
 ```
@@ -38,13 +45,6 @@ NB: If changing the ```secret``` AES encryption key, ensure you change both the 
 ```download [filename]```     => Need to rename file after download.
 
 ```winreg```                 => displays help message
-
-
-## Install
-1. git clone <repo>
-2. ```pip2 install -r requirements.txt```
-3. ```python2 server_shell_http.py```
-4. choose port ```80``` - Other ports may work, but it works best with port ```80```
 
 ## Issues
 If there are issues with pip2 installation (due to deprecation) refer to this https://bootstrap.pypa.io/ to get pip working again for python2. 
