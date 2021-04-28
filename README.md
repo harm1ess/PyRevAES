@@ -11,9 +11,10 @@ If I get some time, I will convert this to a python3 project.
 
 ## Install:
 1. ```git clone https://github.com/simon-revit/PyRevAES.git```
-2. ```pip2 install -r requirements.txt```
-3. ```python2 server_shell_http.py```
-4. choose port ```80``` - Other ports may work, but it works best with port ```80```
+2. ```cd PyRevAES/```
+3. ```pip2 install -r requirements.txt```
+4. ```python2 server_shell_http.py```
+5. choose port ```80``` - Other ports may work, but it works best with port ```80```
 
 ## Usage:
 1. Run server_shell_http.py from kali (and choose port 80)
@@ -45,6 +46,13 @@ NB: If changing the ```secret``` AES encryption key, ensure you change both the 
 ```download [filename]```     => Need to rename file after download.
 
 ```winreg```                 => displays help message
+WINREG HELP
+```Usage set:      winreg,set,[HKEY],"[REG_PATH]",[REG_NAME],[value]
+Example:        winreg,set,HKEY_CURRENT_USER,control panel\mouse,mousesensitivity,7
+                                or
+Usage read: winreg,read,[HKEY],[REG_PATH],[REG_NAME]
+Example:        winreg,read,HKEY_CURRENT_USER,control panel\mouse,mousesensitivity```
+
 
 ## Issues:
 If there are issues with pip2 installation (due to deprecation) refer to this https://bootstrap.pypa.io/ to get pip working again for python2. 
