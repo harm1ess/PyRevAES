@@ -10,7 +10,7 @@ If I get some time (and encouragement), I will convert this to a python3 project
 
 
 ## Install
-1. git clone https://github.com/simon-revit/PyRevAES.git
+1. ```git clone https://github.com/simon-revit/PyRevAES.git```
 2. ```pip2 install -r requirements.txt```
 3. ```python2 server_shell_http.py```
 4. choose port ```80``` - Other ports may work, but it works best with port ```80```
